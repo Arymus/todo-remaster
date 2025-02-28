@@ -1,10 +1,5 @@
 @import "tailwindcss";
 
-@keyframes borderFade {
-    from {border-color: #9f1239}
-    to {border-color: #ffffff}
-}
-
 @font-face {
     font-family: paintbrush;
     src: url("assets/SuperShiny-0v0rG.ttf") format("truetype");
@@ -13,5 +8,4 @@
 
 @theme {
     --font-paintbrush: "paintbrush", "sans-serif";
-    --animate-fade: borderFade 1s forwards;
 }
